@@ -11,6 +11,6 @@ if __name__ == '__main__':
     function_keyword(10)
     function_keyword(1, 20)
     function_keyword(1, 20, 30)
-    function_keyword(a = 'null', 30)
+    function_keyword(30, b=1)
 
     function_keyword2()

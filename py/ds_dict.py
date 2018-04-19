@@ -1,12 +1,15 @@
 # -*- coding: utf-8 -*-
 
 dict = {
-    'jump' : 'naruto',
-    'gintoki' : 'samurai',
-    4 : 'arsenal'
+    'jump': 'naruto',
+    'gintoki': 'samurai',
+    4: 'arsenal'
 }
 
 print dict
+
+if 'jump' in dict:
+    print 'is \'jump\' in dict?: True'
 
 print 'is dict contains \'jump\'?: ', dict.__contains__('jump')
 
